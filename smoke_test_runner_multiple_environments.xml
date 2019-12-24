@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vy track tests" verbose="10">
+
+    <test name="QA1 Vy truck smoke tests">
+            <parameter name="env" value="qa1">
+
+            </parameter>
+<packages>
+
+    <package name="com.cybertek.tests.d15_page_object_model_based_tests">
+
+    </package>
+</packages>
+        <classes>
+            <class name="com.cybertek.tests.d17_extends_reports.NegativeLoginTEstWithReports">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
